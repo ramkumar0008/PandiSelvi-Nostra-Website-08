@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nostra</title>
+    <!--Tailwind CSS CDN LINK-->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav id="navbar1" class="bg-black text-2xl shadow-xl text-white font-bold flex justify-center gap-x-20 p-2 w-full">
+        <h1>Sign UP and Get 20% OFF for your frist Order</h1>
+        <p id="navbar" class="cursor-pointer">X</p>
+    </nav>
+     <!--sidenav-->
+    <section id="sidenav" class="bg-gray-200 fixed z-20 top-0 transition-all duration-1000 "  style="width: 50%; height: 100vh; right: -50%; ">
+        <div class="text-right p-5">
+            <p id="closenav" class="inline cursor-pointer">X</p>
+        </div>
+        <ul class=" text-xl flex flex-col gap-x-28 items-center gap-6 cursor-pointer ">
+                <li>
+                    <a class="hover:underline hover:text-black" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black" href="newarrival.html">NewArrival</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black" href="collection.html">Collections</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black mr-2" href="contact.html">ContactUs</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <!--Nostra-->
+    <section>
+        <div class="flex mt-2 items-center justify-around text-xl sticky top-0">
+            <h1 class="text-2xl p-3 font-bold w-full items-center">Nostra</h1>
+            <ul class=" text-xl flex gap-x-28 cursor-pointer hidden md:items-center md:flex">
+                <li>
+                    <a class="hover:underline hover:text-black" href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black" href="newarrival.html">NewArrival</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black" href="collection.html">Collections</a>
+                </li>
+                <li>
+                    <a class="hover:underline hover:text-black mr-2" href="contact.html">ContactUs</a>
+                </li>
+            </ul>
+            
+            <!--svg button-->
+            <svg id="menuicon" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                stroke="currentColor" class="w-6 h-6 md:hidden right-50% ">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+            </svg>
+        </div>
+    </section>
+    <div class=" m-5 rounded-xl ">
+        <input id="search" type="text" placeholder="Search" style="width: 100%; border: solid 1px black ; border-radius: 30px; padding: 20px;">
+    </div>
+    </section>
+    <!--Images-->
+    <section>
+        <div id="productcontainer" class="grid grid-cols-4 gap-10 p-8 m-8">
+            <div>
+            <img class="w-60 rounded-xl " src="./image/clothes-5.jpg" alt="stylesheet">
+            <p class="text-xl font-bold">Floral Summer Shirt</p>
+            <p class="text-xl font-bold">$200</p>
+            </div>
+            <div>
+            <img class="w-60 rounded-xl" src="./image/clothes-7.jpg" alt="stylesheet">
+            <p class="text-xl font-bold">Pant</p>
+            <p class="text-xl font-bold">$180</p>
+            </div>
+            <div>
+            <img  class="w-60 rounded-xl" src="./image/clothes-7.jpg" alt="stylesheet">
+            <p class="text-xl font-bold">Shirts</p>
+            <p class="text-xl font-bold">$100</p>
+            </div>
+            <div>
+            <img  class="w-60 rounded-xl " src="./image/clothes-5.jpg" alt="stylesheet">
+            <p class="text-xl font-bold">Football t-Shirt</p>
+            <p class="text-xl font-bold">$200</p>
+            </div>
+            <div>
+            <img  class="w-60 rounded-xl" src="./image/clothes-5.jpg" alt="stylesheet">
+            <p class="text-xl font-bold"> Summer Shirt</p>
+            <p class="text-xl font-bold">$200</p>
+            </div>
+            <div>
+            <img  class="w-60 rounded-xl" src="./image/clothes-7.jpg" alt="stylesheet">
+            <p class="text-xl font-bold">Jersey</p>
+            <p class="text-xl font-bold">$200</p>
+            </div>
+            <div>
+            <img  class="w-60 rounded-xl" src="./image/clothes-5.jpg" alt="stylesheet">
+            <p class="text-xl font-bold">T-shirt</p>
+            <p class="text-xl font-bold">$200</p>
+            </div>
+            <div>
+            <img  class="w-60 rounded-xl" src="./image/clothes-5.jpg" alt="stylesheet">
+            <p class="text-xl font-bold">Checked Shirt</p>
+            <p class="text-xl font-bold">$200</p>
+            </div>
+        </div>
+    </section>
+    <!--Join with us-->
+    <section class="text-center ">
+        <h1 class="text-3xl font-bold mt-5 text bg-center">Join Our News Letter</h1>
+        <p class="text-xl">Signup for our email newspaper to get exclusive discounts,update,and more</p>
+        <input type="text" class="border border-black p-6 m-3" style="width: 80%;">
+        <br>
+        <button class="bg-black text-white p-3 m-1 underline rounded-xl">Subscribe</button>
+    </section>
+    <!--Footer-->
+    <section>
+        <div class="bg-black text-white gap-2 mt-2">
+            <h1 class="text-3xl font-bold ml-10 gap-4">Nostra</h1>
+            <p class="text-2xl font-bold ml-10 ">The standard chunk of Lorem ipsum used since the 1500s is reprodused below <br>
+            for these interest</p>
+            <p class="text-2xl font-bold ml-10">@2023 Notra.com</p>
+        </div>
+    </section>
+
+
+    </body>
+    </html>
+    <script src="collection.js"></script>
