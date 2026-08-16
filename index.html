@@ -8,6 +8,8 @@
     <!--Tailwind CSS CDN LINK-->
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
+    <!--Font Awesome Cdn link-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css" integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
@@ -27,7 +29,7 @@
                 <a class="hover:underline hover:text-black" href="index.html">Home</a>
             </li>
             <li>
-                <a class="hover:underline hover:text-black" href="newarrival.html">NewArrival</a>
+                <a class="hover:underline hover:text-black" href="#">NewArrival</a>
             </li>
             <li>
                 <a class="hover:underline hover:text-black" href="collection.html">Collections</a>
@@ -63,114 +65,115 @@
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
             </svg>
         </div>
-        </section>
+    </section>
 
-        <!-- Hero Section -->
-        <section class="mx-6 overflow-hidden rounded-2xl md:mx-16">
+    <!-- Hero Section -->
+    <section class="mx-6 overflow-hidden rounded-2xl md:mx-16">
 
-            <div class="relative h-[510px] overflow-hidden">
+        <div class="relative h-[510px] overflow-hidden">
 
-                <!-- Image-->
-                <section class="mx-6 overflow-hidden md:mx-16">
-                    <div class="relative flex h-[510px] items-center justify-center bg-cover bg-center"
-                        style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('./image/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg');">
-                        <!-- Dark Overlay -->
-                        <div class="absolute inset-0 bg-black/40"></div>
+            <!-- Image-->
+            <section class="mx-6 overflow-hidden md:mx-16">
+                <div class="relative flex h-[510px] items-center justify-center bg-cover bg-center"
+                    style="background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url('./image/clark-street-mercantile-qnKhZJPKFD8-unsplash.jpg');">
+                    <!-- Dark Overlay -->
+                    <div class="absolute inset-0 bg-black/40"></div>
 
-                        <!-- Left Arrow -->
-                        <button id="previous" class="absolute left-5 md:left-5 top-1/2
+                    <!-- Left Arrow -->
+                    <button id="previous" class="absolute left-5 md:left-5 top-1/2
                    z-20 text-white text-5xl">
-                            &#10094;
-                        </button>
-                        <!-- Center Content -->
-                        <div class="relative z-10 text-center text-white">
+                        &#10094;
+                    </button>
+                    <!-- Center Content -->
+                    <div class="relative z-10 text-center text-white">
 
-                            <!-- Heading -->
-                            <h1 class="text-3xl md:text-5xl ml-20 mr-20 text-center font-bold mb-5">
-                                Level up your style with our
-                            </h1>
+                        <!-- Heading -->
+                        <h1 class="text-3xl md:text-5xl ml-20 mr-20 text-center font-bold mb-5">
+                            Level up your style with our
+                        </h1>
 
-                            <!-- Subtitle -->
-                            <h3 class="text-lg md:text-xl font-bold mb-5">
-                                Summer Collections
-                            </h3>
+                        <!-- Subtitle -->
+                        <h3 class="text-lg md:text-xl font-bold mb-5">
+                            Summer Collections
+                        </h3>
 
-                            <!-- Shop Button -->
-                            <button class="bg-white text-gray-800
+                        <!-- Shop Button -->
+                        <button class="bg-white text-gray-800
                        px-7 py-3
                        hover:bg-green-200
                        transition duration-100">
-                                Shop Now →
-                            </button>
-                        </div>
-                        <!-- Right Arrow -->
-                        <button id="next" class="absolute right-5 md:right-5 top-1/2 
-             z-20 text-white text-5xl">
-                            &#10095;
+                            Shop Now →
                         </button>
-                        </div>
-                </section>
-                </section>
-                <!--Brands-->
-                <section>
-                    <div class="cursor-pointer">
-                        <h1 class="text-3xl font-bold p-3 items-center">Brands</h1>
-                        <div class="flex justify-around p-2 mt-2  md:flex md:w-full w-full gap-10 ">
-                            <img class="w-20" src="./image/puma-logo.svg" alt="logo">
-                            <img class="w-20" src="./image/amazon-simple.svg" alt="logo">
-                            <img class="w-20" src="./image/bosch-logo-simple.svg" alt="logo">
-                            <img class="w-20" src="./image/puma-logo.svg" alt="logo">
-                        </div>
-                        <div class="flex justify-around p-3 ml-2 font-bold text-2xl md:w-full w-full gap-10">
-                            <h2>Puma</h2>
-                            <h2>Adidas</h2>
-                            <h2>Bosch</h2>
-                            <h2>Amazon</h2>
-                        </div>
                     </div>
-                </section>
-                <!--Provide Section-->
-                <section>
-                    <div class="p-3 text-3xl font-bold justify-center">
-                        <h1>We Provide Best <br>Customer Experiences</h1>
-                    </div>
-                    <div class="text-center items-center md:flex ">
-                        <div class="border border-black rounded-2xl p-2 m-6 ">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="w-20 inline">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
-                            </svg>
-                            <h2 class="text-2xl">Original Product</h2>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla
-                                et quos ducimus placeat. Dicta debitis dolorem a in modi, culpa molestiae praesentium!
-                                Ducimus nobis fugit praesentium eaque autem est?</p>
-                        </div>
-                        <div class="border border-black rounded-2xl p-2 m-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="w-20 inline">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M9 3.75H6.912a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H15M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859M12 3v8.25m0 0-3-3m3 3 3-3" />
-                            </svg>
-                            <h2 class="text-2xl">Free & Free Shiping</h2>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla
-                                et quos ducimus placeat. Dicta debitis dolorem a in modi, culpa molestiae praesentium!
-                                Ducimus nobis fugit praesentium eaque autem est?</p>
-                        </div>
-                        <div class="border border-black rounded-2xl p-2 m-6">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
-                                stroke="currentColor" class="w-20 inline">
-                                <path stroke-linecap="round" stroke-linejoin="round"
-                                    d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
-                            </svg>
-
-                            <h2 class="text-2xl">Satisfaction Gurantee</h2>
-                            <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla
-                                et quos ducimus placeat. Dicta debitis dolorem a in modi, culpa molestiae praesentium!
-                                Ducimus nobis fugit praesentium eaque autem est?</p>
-                        </div>
-                    </div>
+                    <!-- Right Arrow -->
+                    <button id="next" class="absolute right-5 md:right-5 top-1/2 
+             z-20 text-white text-5xl">
+                        &#10095;
+                    </button>
+                </div>
+            </section>
+    </section>
+    <!--Brands-->
+    <section>
+        <div class="cursor-pointer">
+            <h1 class="text-3xl font-bold p-3 items-center">Brands</h1>
+            <div class="flex justify-around p-2 mt-2  md:flex md:w-full w-full gap-10 ">
+                <img class="w-20" src="./image/puma-logo.svg" alt="logo">
+                <img class="w-20" src="./image/amazon-simple.svg" alt="logo">
+                <img class="w-20" src="./image/bosch-logo-simple.svg" alt="logo">
+                <img class="w-20" src="./image/puma-logo.svg" alt="logo">
             </div>
+            <div class="flex justify-around p-3 ml-2 font-bold text-2xl md:w-full w-full gap-10">
+                <h2>Puma</h2>
+                <h2>Adidas</h2>
+                <h2>Bosch</h2>
+                <h2>Amazon</h2>
+            </div>
+        </div>
+    </section>
+    <!--Provide Section-->
+    <section>
+        <div class="p-3 text-3xl font-bold justify-center">
+            <h1>We Provide Best <br>Customer Experiences</h1>
+        </div>
+        <div class="text-center items-center md:flex ">
+            <div class="border border-black rounded-2xl p-2 m-6 ">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 12.75 6 6 9-13.5" />
+                </svg>
+                <h2 class="text-2xl">Original Product</h2>
+                <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla
+                    et quos ducimus placeat. Dicta debitis dolorem a in modi, culpa molestiae praesentium!
+                    Ducimus nobis fugit praesentium eaque autem est?</p>
+            </div>
+            <div class="border border-black rounded-2xl p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9 3.75H6.912a2.25 2.25 0 0 0-2.15 1.588L2.35 13.177a2.25 2.25 0 0 0-.1.661V18a2.25 2.25 0 0 0 2.25 2.25h15A2.25 2.25 0 0 0 21.75 18v-4.162c0-.224-.034-.447-.1-.661L19.24 5.338a2.25 2.25 0 0 0-2.15-1.588H15M2.25 13.5h3.86a2.25 2.25 0 0 1 2.012 1.244l.256.512a2.25 2.25 0 0 0 2.013 1.244h3.218a2.25 2.25 0 0 0 2.013-1.244l.256-.512a2.25 2.25 0 0 1 2.013-1.244h3.859M12 3v8.25m0 0-3-3m3 3 3-3" />
+                </svg>
+                <h2 class="text-2xl">Free & Free Shiping</h2>
+                <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla
+                    et quos ducimus placeat. Dicta debitis dolorem a in modi, culpa molestiae praesentium!
+                    Ducimus nobis fugit praesentium eaque autem est?</p>
+            </div>
+            <div class="border border-black rounded-2xl p-2 m-6">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                    stroke="currentColor" class="w-20 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round"
+                        d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 0 0 2.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 0 0-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 0 0 .75-.75 2.25 2.25 0 0 0-.1-.664m-5.8 0A2.251 2.251 0 0 1 13.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25ZM6.75 12h.008v.008H6.75V12Zm0 3h.008v.008H6.75V15Zm0 3h.008v.008H6.75V18Z" />
+                </svg>
+
+                <h2 class="text-2xl">Satisfaction Gurantee</h2>
+                <p class="text-xl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur nulla
+                    et quos ducimus placeat. Dicta debitis dolorem a in modi, culpa molestiae praesentium!
+                    Ducimus nobis fugit praesentium eaque autem est?</p>
+            </div>
+        </div>
+        </div>
         <!--New Arrival-->
+        <a href="#">newArrival</a>
         <h1 class="text-2xl font-bold p-5 gap-2 ">NewArrival</h1>
         <section class="grid grid-cols-4 items-center mb-16 gap-5 p-4 w-full justify-center">
             <div class="container">
@@ -200,20 +203,26 @@
             <div class="container-2">
                 <div class="grid grid-cols-4 items-center mb-16 gap-5 p-4 justify-center">
                     <div class="container-2">
-                        <img class="relative" src="./image/clothes 5.jpg" alt="stylesheet">
+                        <img class="relative" src="./image/clothes 5.jpg" alt="stylesheet" >
                         <button class="text-2xl font-bold border solid 1px black p-1 hidden  md:flex">Sale</button>
+                        <i  class="fa-regular fa-heart absolute top-1 bottom-1 cursor-pointer "></i>
+                        
                     </div>
                     <div class="container-2">
                         <img class="relative" src="./image/clothes 5.jpg" alt="stylesheet">
                         <button class="text-2xl font-bold border solid 1px black p-1 hidden  md:flex">Sale</button>
+                        <i class="fa-regular fa-heart absolute top-1 bottom-1 cursor-pointer "></i>
+
                     </div>
                     <div class="container-2">
                         <img class="relative" src="./image/clothes-3.jpg" alt="stylesheet">
                         <button class="text-2xl font-bold border solid 1px black p-1 hidden md:flex">Sale</button>
+                        <i class="fa-regular fa-heart absolute top-1 bottom-1 cursor-pointer "></i>
                     </div>
                     <div class="container-2">
                         <img class="relative" src="./image/clothes-3.jpg" alt="stylesheet" style="width: 100%;">
                         <button class="text-2xl font-bold  border solid 1px black p-1  hidden md:flex">Sale</button>
+                        <i class="fa-regular fa-heart absolute top-1 bottom-1 cursor-pointer"></i>
                     </div>
                 </div>
             </div>
@@ -305,5 +314,9 @@
         padding: 10px;
         margin-right: 10px;
         border-radius: 10px;
+    }
+
+    .container-2 svg {
+    
     }
 </style>
